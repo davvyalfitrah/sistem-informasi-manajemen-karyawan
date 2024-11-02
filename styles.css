@@ -1,0 +1,75 @@
+/* styles.css */
+
+/* Gaya untuk navbar */
+.navbar {
+    background-color: #104d8f; /* Warna biru */
+}
+
+.navbar .nav-link {
+    color: rgb(255, 255, 255); /* Warna teks menu */
+}
+
+.navbar .nav-link:hover {
+    color: #ffcc00; /* Warna teks saat hover */
+}
+
+.navbar-brand {
+    color: white; /* Warna teks brand */
+}
+
+.navbar-brand:hover {
+    color: #ffcc00; /* Warna teks brand saat hover */
+}
+
+/* Gaya untuk judul statistik */
+h2 {
+    color: #333; /* Warna teks judul */
+    font-weight: bold;
+    text-align: center; /* Pusatkan teks judul */
+}
+
+/* Gaya untuk kartu statistik */
+.card {
+    border-radius: 10px; /* Sudut kartu yang lebih bulat */
+}
+
+/* Gaya untuk tabel */
+.table {
+    margin-top: 20px; /* Jarak atas tabel */
+}
+
+.table th {
+    background-color: #007bff; /* Warna latar belakang header tabel */
+    color: white; /* Warna teks header tabel */
+}
+
+.table tbody tr:hover {
+    background-color: #f1f1f1; /* Warna latar belakang saat hover pada baris tabel */
+}
+
+/* Gaya untuk tabel data karyawan */
+.table td {
+    vertical-align: middle; /* Menyelaraskan teks di tengah */
+}
+
+/* Gaya untuk container */
+.container {
+    max-width: 800px; /* Lebar maksimum container */
+    margin: auto; /* Pusatkan container */
+    padding: 20px; /* Padding di dalam container */
+    background-color: #f9f9f9; /* Warna latar belakang */
+    border-radius: 10px; /* Sudut yang lebih bulat */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Bayangan untuk efek kedalaman */
+}
+
+/* Gaya untuk tombol */
+.btn-primary {
+    width: 100%; /* Tombol memenuhi lebar form */
+}
+
+/* Gaya untuk footer (jika ada) */
+footer {
+    text-align: center; /* Pusatkan teks footer */
+    margin-top: 20px; /* Jarak atas footer */
+    color: #777; /* Warna teks footer */
+}
